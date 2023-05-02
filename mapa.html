@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Mi primer mapa</title>
+		<link rel="stylesheet" type="text/css" href="./styles.css" />
+		<script type="text/javascript" src="./locations_json.js"></script>
+		<script type="text/javascript" src="./dataTableController.js"></script>
+		<script type="text/javascript" src="./eventsListener.js"></script>
+		<script type="text/javascript" src="./core/element.js"></script>
+		<script type="text/javascript" src="./core/module.js"></script>
+		<script type="text/javascript" src="./filtro/filterCondition.js"></script>
+		<script type="text/javascript" src="./filtro/filterValue.js"></script>
+		<script type="text/javascript" src="./filtro/filterValueModule.js"></script>
+		<script type="text/javascript" src="./filtro/filterSelect.js"></script>
+		<script type="text/javascript" src="./filtro/filterSelectModule.js"></script>
+		<script type="text/javascript" src="./location.js"></script>
+		<script type="text/javascript" src="./panel/panel.js"></script>
+		<script type="text/javascript" src="./panel/panelModule.js"></script>
+		<script type="text/javascript" src="./mapa/mapa.js"></script>
+		<script type="text/javascript" src="./mapa/mapaModule.js"></script>
+		<script type="text/javascript" src="./index.js"></script>
+	</head>
+	<body>
+		<h3 class="header">Mi primer mapa</h3>
+		<div class="body">
+			<section class="area-left">
+				<div id="map"></div>
+			</section>
+			<section class="area-right">
+				<div id="filterValue"></div>
+				<div id="filterSelect"></div>
+				<div id="panel"></div>
+			</section>
+		</div>
+	</body>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+		defer
+	></script>
+</html>
